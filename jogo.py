@@ -163,15 +163,3 @@ for num, (nome, ponto, tempo) in enumerate(zip(nomes2, pontos2, tempos2), start=
     print(Style.RESET_ALL)
   else:
     print(f"{num:2d} {nome:25s}   {ponto:2d}   {tempo*-1:3d} seg")
-  
-
-
-# -------------------------------------------------
-# Exercícios:
-# -------------------------------------------------
-# 1. Solicitar nome do jogador no início do jogo
-# 2. Definir pontuação (acerto +10, erro -5)
-# 3. No final, exibir nome e pontuação
-# 4. Armazenar hora inicial e final. Exibir o tempo do jogo
-# 5. Salvar nome, pontuação e tempo em arquivo texto
-# 6. Mostrar Ranking
